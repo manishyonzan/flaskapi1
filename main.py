@@ -26,4 +26,5 @@ def answer(str):
 
 
 
-app.run(debug=True)
+
+app.run()
