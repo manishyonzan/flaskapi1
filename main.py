@@ -27,4 +27,4 @@ def answer(str):
 
 
 
-app.run()
+app.run(host='0.0.0.0')
