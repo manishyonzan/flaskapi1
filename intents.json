@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tags": "greetings",
+      "patterns": ["hello","hi","good day","whats up", "how is it going","how are you"],
+      "responses": ["hello","hey","hi","what can i do for you"]
+    },
+    {
+      "tags": "age",
+      "patterns": ["how old are you","how old is ","what is your age","your age", "age ?"],
+      "responses": ["more than chatgpt","i am five years old","5 years","i am five years old"]
+    },
+    {
+      "tags": "name",
+      "patterns": ["what is your name?","whats your name?","your name?","who are you?", "can you tell me your name"],
+      "responses": ["my name is AI, a practice Assistance","this is AI made by manish","hi i am neral network","you can call me neural"]
+    },
+    {
+      "tags": "hours",
+      "patterns": ["when are you guys open?","hour of operation","what are your hours","when do you open","what time do you guys open", "open time"],
+      "responses": ["24/7"]
+    },
+  {
+      "tags": "service",
+      "patterns": [" i would like to buy something?","what are your products?","what do you recommend?","what are you selling ?", "i'd like to buy something"],
+      "responses": ["we have variety of option from web development, mobile application desktop application, and many more"]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 from flask import Flask,jsonify
 from fun import sum,machinelearning
+from chatbot import return_answer
 
 app = Flask(__name__)
 
@@ -15,6 +16,11 @@ def calculate(n):
 @app.route('/ml')
 def some():
     a = machinelearning()
+    return jsonify(a)
+
+@app.route('/chatbot/<string:str>')
+def answer(str):
+    a = return_answer(str)
     return jsonify(a)
 
 
